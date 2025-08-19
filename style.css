@@ -312,6 +312,81 @@ article .icon{
     cursor: default;
 }
 
+/* Projects Section */
+#projects {
+  padding: 2rem;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#project h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Grid layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Card styling */
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* Project image */
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+/* Title */
+.project-card h2 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #222;
+}
+
+/* Description */
+.project-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Links */
+.project-card a {
+  display: inline-block;
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.project-card a:hover {
+  background: #333;
+  color: #fff;
+}
+
+
 /* contact */
 #contact{
     display: flex;

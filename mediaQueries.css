@@ -36,6 +36,12 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
+     .about-pic-container{
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+    margin:-120px auto 40px auto;
+    }
     .about-containers{
         margin-top: 0;
     }
@@ -81,6 +87,12 @@
         width: auto;
         height: 50vw;
         justify-content: center;
+    }
+    .about-pic-container{
+    width: auto;
+    height: 70vw;
+    justify-content: center;
+    margin: -50px auto 50px auto;
     }
     .section__text__p2{
         font-size: 1.25rem;

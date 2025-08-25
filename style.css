@@ -251,7 +251,7 @@ section{
 }
 
 .about-pic{
-    border-radius: 2rem;
+    clip-path: circle(35% at 55% 65% ); 
 }
 .arrow{
     position: absolute;
@@ -275,6 +275,11 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+.about-pic-container{
+    height: 550px;
+    width: 500px;
+    margin: -60px auto 10px -4rem;  /* top=30px, right=auto, bottom=10px, left=auto */
 }
 
 /* experience */
